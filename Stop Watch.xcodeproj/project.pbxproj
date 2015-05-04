@@ -13,6 +13,12 @@
 		CD376E5A1AF58966000FABCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD376E591AF58966000FABCA /* Images.xcassets */; };
 		CD376E5D1AF58966000FABCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD376E5B1AF58966000FABCA /* LaunchScreen.xib */; };
 		CD376E691AF58967000FABCA /* Stop_WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD376E681AF58967000FABCA /* Stop_WatchTests.swift */; };
+		CD376E751AF5935F000FABCA /* stop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD376E731AF5935F000FABCA /* stop.jpg */; };
+		CD376E761AF5935F000FABCA /* start.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD376E741AF5935F000FABCA /* start.jpg */; };
+		CD376E7B1AF593A5000FABCA /* lap.png in Resources */ = {isa = PBXBuildFile; fileRef = CD376E771AF593A5000FABCA /* lap.png */; };
+		CD376E7C1AF593A5000FABCA /* reset in Resources */ = {isa = PBXBuildFile; fileRef = CD376E781AF593A5000FABCA /* reset */; };
+		CD376E7D1AF593A5000FABCA /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = CD376E791AF593A5000FABCA /* start.png */; };
+		CD376E7E1AF593A5000FABCA /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = CD376E7A1AF593A5000FABCA /* stop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		CD376E621AF58967000FABCA /* Stop WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stop WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD376E671AF58967000FABCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD376E681AF58967000FABCA /* Stop_WatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop_WatchTests.swift; sourceTree = "<group>"; };
+		CD376E731AF5935F000FABCA /* stop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stop.jpg; sourceTree = "<group>"; };
+		CD376E741AF5935F000FABCA /* start.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = start.jpg; sourceTree = "<group>"; };
+		CD376E771AF593A5000FABCA /* lap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lap.png; sourceTree = "<group>"; };
+		CD376E781AF593A5000FABCA /* reset */ = {isa = PBXFileReference; lastKnownFileType = file; path = reset; sourceTree = "<group>"; };
+		CD376E791AF593A5000FABCA /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		CD376E7A1AF593A5000FABCA /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 		CD376E4F1AF58966000FABCA /* Stop Watch */ = {
 			isa = PBXGroup;
 			children = (
+				CD376E721AF58AA9000FABCA /* Button Images */,
 				CD376E521AF58966000FABCA /* AppDelegate.swift */,
 				CD376E541AF58966000FABCA /* ViewController.swift */,
 				CD376E561AF58966000FABCA /* Main.storyboard */,
@@ -110,6 +123,19 @@
 				CD376E671AF58967000FABCA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD376E721AF58AA9000FABCA /* Button Images */ = {
+			isa = PBXGroup;
+			children = (
+				CD376E771AF593A5000FABCA /* lap.png */,
+				CD376E781AF593A5000FABCA /* reset */,
+				CD376E791AF593A5000FABCA /* start.png */,
+				CD376E7A1AF593A5000FABCA /* stop.png */,
+				CD376E731AF5935F000FABCA /* stop.jpg */,
+				CD376E741AF5935F000FABCA /* start.jpg */,
+			);
+			name = "Button Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +219,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD376E581AF58966000FABCA /* Main.storyboard in Resources */,
+				CD376E7C1AF593A5000FABCA /* reset in Resources */,
+				CD376E7E1AF593A5000FABCA /* stop.png in Resources */,
+				CD376E7D1AF593A5000FABCA /* start.png in Resources */,
+				CD376E751AF5935F000FABCA /* stop.jpg in Resources */,
+				CD376E761AF5935F000FABCA /* start.jpg in Resources */,
+				CD376E7B1AF593A5000FABCA /* lap.png in Resources */,
 				CD376E5D1AF58966000FABCA /* LaunchScreen.xib in Resources */,
 				CD376E5A1AF58966000FABCA /* Images.xcassets in Resources */,
 			);
